@@ -4,10 +4,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Index</title>
+    <title>AgregarVideo</title>
 </head>
 <body>
-    <h1>Bienvenido</h1>
-    <a href = "/Video/EliminarVideo">Eliminar Video</a>
+    <div>
+    
+    </div>
 </body>
 </html>

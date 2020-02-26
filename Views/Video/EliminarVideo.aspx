@@ -4,10 +4,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Index</title>
+    <title>EliminarVideo</title>
 </head>
 <body>
-    <h1>Bienvenido</h1>
-    <a href = "/Video/EliminarVideo">Eliminar Video</a>
+    <form action="/" method="post">
+        <label for ="idVideo">ID del Video</label>
+        <input type="text" name="idVideo" />
+        <br/>
+    <input type="submit" name="eliminar" value ="Eliminar Video"/>
+    </form>
 </body>
 </html>
