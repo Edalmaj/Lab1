@@ -12,3 +12,8 @@ C:\Users\Alejandro Jiménez\Desktop\LaboratoriosDS\Lab1\obj\Debug\MvcPlantilla.p
 C:\Users\Alejandro Jiménez\Desktop\LaboratoriosDS\Lab1\bin\MvcPlantilla.dll
 C:\Users\Alejandro Jiménez\Desktop\LaboratoriosDS\Lab1\bin\MvcPlantilla.pdb
 C:\Users\Alejandro Jiménez\Desktop\LaboratoriosDS\Lab1\obj\Debug\MvcPlantilla.csprojResolveAssemblyReference.cache
+C:\Users\Sala\Desktop\Lab1\bin\MvcPlantilla.dll
+C:\Users\Sala\Desktop\Lab1\bin\MvcPlantilla.pdb
+C:\Users\Sala\Desktop\Lab1\obj\Debug\MvcPlantilla.csprojResolveAssemblyReference.cache
+C:\Users\Sala\Desktop\Lab1\obj\Debug\MvcPlantilla.dll
+C:\Users\Sala\Desktop\Lab1\obj\Debug\MvcPlantilla.pdb

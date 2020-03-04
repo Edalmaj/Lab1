@@ -18,7 +18,7 @@ namespace MvcPlantilla.Controllers
 
         public ActionResult Index()
         {
-            BaseHelper.ejecutarConsulta("SELECT * FROM video", CommandType.Text);
+            ViewData["video"] = BaseHelper.ejecutarConsulta("SELECT * FROM video", CommandType.Text);
             return View();
         }
 
@@ -54,8 +54,8 @@ namespace MvcPlantilla.Controllers
             parametros.Add(new SqlParameter("@repro", repro));
             parametros.Add(new SqlParameter("@link", link));
 
-            BaseHelper.ejecutarSentencia("UPDATE video SET (titulo=@titulo,repro=@repro,link=@link) WHERE idVideo=@idVideo)", CommandType.Text, parametros);
-            return View();
+            BaseHelper.ejecutarSentencia("UPDATE video SET titulo=@titulo,repro=@repro,link=@link WHERE idVideo=@idVideo", CommandType.Text, parametros);
+            return RedirectToAction("Index", "Video");
         }
 
         public ActionResult Delete()
@@ -68,8 +68,8 @@ namespace MvcPlantilla.Controllers
         {
             List<SqlParameter> parametros = new List<SqlParameter>();
             parametros.Add(new SqlParameter("@idVideo", idVideo));
-            BaseHelper.ejecutarSentencia("DELETE FROM videos WHERE idVideo=@idVideo", CommandType.Text, parametros);
-            return View();
+            BaseHelper.ejecutarSentencia("DELETE FROM video WHERE idVideo=@idVideo", CommandType.Text, parametros);
+            return RedirectToAction("Index", "Video");
         }
     }
 }
