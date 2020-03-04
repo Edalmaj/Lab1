@@ -4,14 +4,17 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>EliminarVideo</title>
+    <title>Delete</title>
 </head>
 <body>
-    <form action="/" method="post">
-        <label for ="idVideo">ID del Video</label>
+    <h1>Eliminar Video</h1>
+    <form action="/Video/Delete" method="post">
+        <fieldset>
+        <label for="idVideo">ID del Video</label>
         <input type="text" name="idVideo" />
-        <br/>
-    <input type="submit" name="eliminar" value ="Eliminar Video"/>
+
+        <input type="submit" name="eliminar" value="Eliminar" />
+        </fieldset>
     </form>
 </body>
 </html>

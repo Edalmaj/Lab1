@@ -63,7 +63,10 @@ namespace MVCPlantilla.Utilerias
 
                 adaptador.Fill(datos);
             } //try
-            catch (Exception) { throw; }
+            catch (Exception) 
+            { 
+                throw; 
+            }
             finally
             {
                 con.Close();

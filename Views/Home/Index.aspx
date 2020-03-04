@@ -8,6 +8,12 @@
 </head>
 <body>
     <h1>Bienvenido</h1>
-    <a href = "/Video/EliminarVideo">Eliminar Video</a>
+    <a href = "/Video/Index">Ver Videos</a>
+    <br />
+    <a href = "/Video/Create">Agregar Video</a>
+    <br />
+    <a href = "/Video/Edit">Modificar Video</a>
+    <br />
+    <a href = "/Video/Delete">Eliminar Video</a>
 </body>
 </html>
